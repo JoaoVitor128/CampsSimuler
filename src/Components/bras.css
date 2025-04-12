@@ -58,3 +58,13 @@ tr.tDefault {
 
     font-size: 20px;
 }
+
+.table{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.games {
+    width: 1000px;
+}
