@@ -13,7 +13,10 @@ const Brasileirao = () => {
     }
 
     function generateRound() {
-
+        if(roundsPlayed >= 38){
+            alert("Você ja jogou todas as rodadas")
+            return
+        }
         const newMatches = [];
         const chooses = [...teamsData].sort(() => Math.random() - 0.5);
         for (let i = 0; i < chooses.length; i += 2) {
