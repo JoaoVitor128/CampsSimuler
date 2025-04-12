@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
-import Table from "./Components/Table"
+import WC from "./Components/WC"
+import Bras from "./Components/Brasileirao"
 
 function App() {
 
@@ -9,7 +10,11 @@ function App() {
     <>
     <h1>🏆World Cup Simuler🏆</h1>
       <div className="table">
-        <Table/>
+        <WC/>
+      </div>
+      <h1>🏆Brasileirão 2025🏆</h1>
+      <div className="table">
+        <Bras/>
       </div>
     </>
   )

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { realChampionsData, selecionsData } from '../Data/selecionData';
+import { realChampionsData, selecionsData } from '../Data/WCData';
 import './table.css';
 
 const Table = () => {

@@ -1,1 +1,3 @@
-Apenas um simulador de Copas do Mundo :)
+Esse é um simulador de:
+-Copa do Mundo
+-Brasileirão 2025
