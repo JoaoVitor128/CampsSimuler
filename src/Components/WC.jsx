@@ -13,6 +13,8 @@ const Table = () => {
     const [goalsChamp, setGoalsChamp] = useState(3)
     const [goalsVice, setGoalsVice] = useState(3)
 
+    const [originCountry, setOriginCountry] = useState("Qatar")
+
     function addTable(newSelecion, newYear) {
         setChampions(prev => {
             const existing = prev.find(sel => sel.selecion === newSelecion);
@@ -31,6 +33,9 @@ const Table = () => {
 
 
     function generateCup() {
+
+        setOriginCountry(selecionsData[Math.floor(Math.random() * selecionsData.length)])
+
         const newYear = year + 4;
         setYear(newYear);
         setNextYears(prev => [...prev, newYear]);
@@ -63,6 +68,7 @@ const Table = () => {
         <div>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
             <p>{year}</p>
+            <p>País Sede: {originCountry}</p>
             <p>Final:</p>
             <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
             <table>
