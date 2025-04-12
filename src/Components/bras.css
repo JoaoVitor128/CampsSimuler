@@ -62,9 +62,4 @@ tr.tDefault {
 .table{
     display: flex;
     flex-direction: row;
-    padding: 0;
-}
-
-.games {
-    width: 1000px;
 }

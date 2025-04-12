@@ -67,7 +67,7 @@ const Brasileirao = () => {
 
 
     return (
-        <div>
+        <div className='bras'>
             <button className='generateButton' onClick={generateRound}>Gerar Próxima Rodada</button>
             <div className="table">
 

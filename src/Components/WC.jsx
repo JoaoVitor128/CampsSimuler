@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { realChampionsData, selecionsData } from '../Data/WCData';
 import './table.css';
+import './WC.css'
 
 const Table = () => {
     const [nextYears, setNextYears] = useState([]);
@@ -65,7 +66,7 @@ const Table = () => {
     }
 
     return (
-        <div>
+        <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
             <p>{year}</p>
             <p>País Sede: {originCountry}</p>
