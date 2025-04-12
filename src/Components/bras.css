@@ -1,33 +1,42 @@
-/* Destaque do campeão */
+
 tr.camp {
     background-color: gold;
     font-weight: bold;
 }
 
-/* Classificados para Libertadores */
 tr.lib {
-    background-color: #add8e6; /* azul claro */
+    background-color: #448FF2;
 }
 
-/* Pré-Libertadores */
 tr.eli {
-    background-color: #87cefa; /* azul mais intenso */
+    background-color: #F26A1B;
 }
 
-/* Classificados para Sul-Americana */
 tr.sul {
-    background-color: #e0ffff; /* azul bem clarinho */
+    background-color: #33A650; 
 }
 
-/* Rebaixados */
+
 tr.reb {
-    background-color: #f08080; /* vermelho claro */
+    background-color: #F23838; 
 }
 
-/* Apenas para ter uma transição suave ao gerar novas rodadas */
-tr {
+td,th {
     transition: background-color 0.3s ease;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+
 }
+
+tr.tDefault {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+    background-color: #090A0D;
+    color: #BDC1C6;
+  }
 
 .round {
     margin-bottom: 1.5rem;
@@ -39,5 +48,13 @@ tr {
 
 .round ul {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.round ul li{
+    border: 2px solid #BDC1C6;
+    border-collapse: collapse;
+
+    font-size: 20px;
 }

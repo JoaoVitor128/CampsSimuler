@@ -41,7 +41,7 @@ const Table = () => {
         const champSelecion = selecionsData[randomIndex];
         const viceSelecion = selecionsData[randomAnotherIndex]
 
-        const randomGoal = Math.floor(Math.random() * (10 - 2)) + 1
+        const randomGoal = Math.floor(Math.random() * (5 - 2)) + 1
         const randomGoalVerify = randomGoal === 1 ? 0 : randomGoal
 
         const randomAnotherGoal = Math.floor(Math.random() * randomGoalVerify);
@@ -78,7 +78,7 @@ const Table = () => {
                     {[...champions]
                         .sort((a, b) => b.years.length - a.years.length)
                         .map((selecion, id) => (
-                            <tr key={id}>
+                            <tr key={id} className='tDefault'>
                                 <td>{id + 1}º</td>
                                 <td>{selecion.selecion}</td>
                                 <td>{selecion.years.length}</td>

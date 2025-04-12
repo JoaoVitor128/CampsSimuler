@@ -57,6 +57,7 @@ const Brasileirao = () => {
         if (pos >= 2 && pos <= 4) return "lib";
         if (pos === 5 || pos === 6) return "eli";
         if (pos >= 7 && pos <= 12) return "sul";
+        if (pos >= 13 && pos <= 16) return "tDefault";        
         if (pos >= 17 && pos <= 20) return "reb";
         return "";
     }
