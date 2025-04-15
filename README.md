@@ -15,3 +15,4 @@ V 1.4 - Novos estilos do Brasileirão
 V1.5 - Adição de domínio       
 
 V2 - Adaptação para mobile
+V2.1 - Aumento de seleções para 219 seleções

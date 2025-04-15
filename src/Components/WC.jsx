@@ -23,11 +23,11 @@ const Table = () => {
             if (existing) {
                 return prev.map(sel =>
                     sel.selecion === newSelecion
-                        ? { ...sel, years: [...sel.years, newYear] }
+                        ? { ...sel, years: [...sel.years, newYear], finals: sel.finals + 1 }
                         : sel
                 );
             } else {
-                return [...prev, { selecion: newSelecion, years: [newYear] }];
+                return [...prev, { selecion: newSelecion, years: [newYear], finals: 1 }];
             }
         });
     }
@@ -68,11 +68,12 @@ const Table = () => {
     return (
         <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
-            <p>{year}</p>
             <div className="infos">
-            <p>País Sede: {originCountry}</p>
+            <p>{year}</p>
+            <h3>{campSel}</h3>
             <p>Final:</p>
             <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
+                <p>País Sede: {originCountry}</p>
             </div>
             <table>
                 <thead>
