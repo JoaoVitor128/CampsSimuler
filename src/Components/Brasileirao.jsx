@@ -76,7 +76,7 @@ const Brasileirao = () => {
                         <tr>
                             <th>Posição</th>
                             <th>Clube</th>
-                            <th>Jogos</th>
+                            <th className='gamesInfo'>Jogos</th>
                             <th>Pontos</th>
                             <th>Saldo de Gols</th>
                         </tr>
@@ -88,7 +88,7 @@ const Brasileirao = () => {
                                 <tr key={id} className={classGenerate(id + 1)}>
                                     <td>{id + 1}º</td>
                                     <td>{team.team}</td>
-                                    <td>{team.j}</td>
+                                    <td className='gamesInfo'>{team.j}</td>
                                     <td>{team.pts}</td>
                                     <td>{team.sg}</td>
                                 </tr>

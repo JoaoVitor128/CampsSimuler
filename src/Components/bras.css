@@ -63,3 +63,17 @@ tr.tDefault {
     display: flex;
     flex-direction: row;
 }
+
+.bras{
+    margin: 0 auto;
+}
+
+@media(width <= 768px){
+    .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .games{
+        width: 500px;
+    }
+}

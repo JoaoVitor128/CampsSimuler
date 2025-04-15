@@ -3,3 +3,13 @@
     border-collapse: collapse;
     color:#090A0D
   }
+
+  .wc{
+    margin: 0 auto;
+}
+
+@media(width <= 768px){
+  .year, .infos{
+    display: none
+  }
+}

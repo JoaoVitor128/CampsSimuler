@@ -13,3 +13,5 @@ V 1.3 - Sistema de País Sede
 V 1.4 - Novos estilos do Brasileirão
        V 1.4.1 - Atualizações De Estilos Gerais
 V1.5 - Adição de domínio       
+
+V2 - Adaptação para mobile

@@ -69,16 +69,18 @@ const Table = () => {
         <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
             <p>{year}</p>
+            <div className="infos">
             <p>País Sede: {originCountry}</p>
             <p>Final:</p>
             <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
+            </div>
             <table>
                 <thead>
                     <tr>
                         <th>Posição</th>
                         <th>Seleção</th>
                         <th>Titulos</th>
-                        <th>Anos</th>
+                        <th className='year'>Anos</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -89,7 +91,7 @@ const Table = () => {
                                 <td>{id + 1}º</td>
                                 <td>{selecion.selecion}</td>
                                 <td>{selecion.years.length}</td>
-                                <td>{selecion.years.join(", ")}</td>
+                                <td className='year'>{selecion.years.join(", ")}</td>
                             </tr>
                         ))}
                 </tbody>
