@@ -16,3 +16,4 @@ V1.5 - Adição de domínio
 
 V2 - Media Query V1
 V2.1 - Media Query V2
+V2.2 - Contador de posicão ao ganhar a copa

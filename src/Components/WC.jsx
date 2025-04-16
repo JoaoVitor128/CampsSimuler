@@ -17,6 +17,7 @@ const Table = () => {
     const [originCountry, setOriginCountry] = useState("Qatar")
 
     function addTable(newSelecion, newYear) {
+        champions.sort((a, b) => b.years.length - a.years.length)
         setChampions(prev => {
             const existing = prev.find(sel => sel.selecion === newSelecion);
 
@@ -30,6 +31,7 @@ const Table = () => {
                 return [...prev, { selecion: newSelecion, years: [newYear], finals: 1 }];
             }
         });
+        console.log(champions)
     }
 
 
@@ -52,7 +54,7 @@ const Table = () => {
 
         const randomAnotherGoal = Math.floor(Math.random() * randomGoalVerify);
 
-        console.log(champSelecion);
+        console.log(champSelecion, randomIndex);
 
         setCampSel(champSelecion)
         setViceSel(viceSelecion)
@@ -69,10 +71,13 @@ const Table = () => {
         <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
             <p>{year}</p>
-            <h3>{campSel}</h3>
+            <h3>🏆 {campSel} 🏆</h3>
+            <h4>{[...champions]
+                .sort((a, b) => b.years.length - a.years.length)
+                .findIndex(sel => sel.selecion === campSel) + 1}º lugar</h4>
             <div className="infos">
-            <p>Final:</p>
-            <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
+                <p>Final:</p>
+                <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
                 <p>País Sede: {originCountry}</p>
             </div>
             <table>
