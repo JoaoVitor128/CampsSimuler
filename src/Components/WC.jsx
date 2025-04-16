@@ -68,9 +68,9 @@ const Table = () => {
     return (
         <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
-            <div className="infos">
             <p>{year}</p>
             <h3>{campSel}</h3>
+            <div className="infos">
             <p>Final:</p>
             <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>
                 <p>País Sede: {originCountry}</p>
