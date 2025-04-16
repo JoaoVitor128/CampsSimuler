@@ -16,6 +16,8 @@ const Table = () => {
 
     const [originCountry, setOriginCountry] = useState("Qatar")
 
+    const [prevRankings, setPrevRankings] = useState([]);
+
     function addTable(newSelecion, newYear) {
         champions.sort((a, b) => b.years.length - a.years.length)
         setChampions(prev => {
@@ -62,6 +64,12 @@ const Table = () => {
         setGoalsChamp(randomGoal)
         setGoalsVice(randomAnotherGoal)
 
+        const previousRanking = [...champions]
+            .sort((a, b) => b.years.length - a.years.length)
+            .map(sel => sel.selecion);
+
+        setPrevRankings(previousRanking);
+
         addTable(champSelecion, newYear);
 
         realChampionsData.sort()
@@ -71,10 +79,22 @@ const Table = () => {
         <div className='wc'>
             <button className='generateButton' onClick={generateCup}>Gerar Próxima Copa</button>
             <p>{year}</p>
-            <h3>🏆 {campSel} 🏆</h3>
-            <h4>{[...champions]
-                .sort((a, b) => b.years.length - a.years.length)
-                .findIndex(sel => sel.selecion === campSel) + 1}º lugar</h4>
+            <h3>
+                🏆 {campSel} (
+                {(() => {
+                    const currentRanking = [...champions]
+                        .sort((a, b) => b.years.length - a.years.length)
+                        .map(sel => sel.selecion);
+
+                    const currentPos = currentRanking.findIndex(sel => sel === campSel) + 1;
+                    const prevPos = prevRankings.findIndex(sel => sel === campSel) + 1;
+
+                    return prevPos && prevPos !== currentPos
+                        ? `${prevPos}º → ${currentPos}º lugar`
+                        : `${currentPos}º lugar`;
+                })()}
+                )
+            </h3>
             <div className="infos">
                 <p>Final:</p>
                 <p>{campSel} {goalsChamp} - {goalsVice} {viceSel}</p>

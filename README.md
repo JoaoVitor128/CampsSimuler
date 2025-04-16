@@ -15,5 +15,6 @@ V 1.4 - Novos estilos do Brasileirão
 V1.5 - Adição de domínio       
 
 V2 - Media Query V1
-V2.1 - Media Query V2
-V2.2 - Contador de posicão ao ganhar a copa
+       V2.0.1 - Media Query V2
+V2.1 - Contador de posicão ao ganhar a copa
+       V2.1.1 - Novo Contador e organização do README
