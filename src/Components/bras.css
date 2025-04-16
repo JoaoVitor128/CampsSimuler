@@ -75,5 +75,18 @@ tr.tDefault {
     }
     .games{
         width: 500px;
+    }   
+    .gamesInfo, .sg{
+        display: none;
+    }
+    table{
+        max-width: 500px;
+    }
+
+}
+
+@media(width <= 607px){
+    table{
+        margin: 0;
     }
 }

@@ -14,4 +14,5 @@ V 1.4 - Novos estilos do Brasileirão
        V 1.4.1 - Atualizações De Estilos Gerais
 V1.5 - Adição de domínio       
 
-V2 - Adaptação para mobile
+V2 - Media Query V1
+V2.1 - Media Query V2

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family:  "Poppins", sans-serif;
+  margin: 0 auto;
 }
 
 #root {
@@ -16,6 +17,4 @@ body {
   background: #090A0D;
   padding: 20px;
   color: #BDC1C6;
-
-  margin: 0 auto;
 }

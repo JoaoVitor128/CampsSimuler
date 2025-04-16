@@ -78,7 +78,7 @@ const Brasileirao = () => {
                             <th>Clube</th>
                             <th className='gamesInfo'>Jogos</th>
                             <th>Pontos</th>
-                            <th>Saldo de Gols</th>
+                            <th className='sg'>Saldo de Gols</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -90,7 +90,7 @@ const Brasileirao = () => {
                                     <td>{team.team}</td>
                                     <td className='gamesInfo'>{team.j}</td>
                                     <td>{team.pts}</td>
-                                    <td>{team.sg}</td>
+                                    <td className='sg'>{team.sg}</td>
                                 </tr>
                             ))}
                     </tbody>
