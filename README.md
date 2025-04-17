@@ -27,3 +27,4 @@ V2.3 - Adição de finais
        V2.3.1 - Correção de Bugs
        V2.3.2 - Últimos Bugs da adição de finais
        V2.3.3 - Últimos Bugs da adição de finais 2
+V 2.4 - Adição de novos times na champions

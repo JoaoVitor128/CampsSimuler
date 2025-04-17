@@ -48,7 +48,7 @@ const selecionsData = [
   "Molde", "LASK", "Sheriff Tiraspol", "Bodo/Glimt", "Maccabi Haifa",
   "Partizan", "Sturm Graz", "Ferencváros", "HJK Helsinki", "Zorya Luhansk",
   "Midtjylland", "PAOK", "AEK Atenas", "Ludogorets", "Qarabağ", "Aston Villa", "Hamburgo", "Steaua Bucareste",
-  "Estrela Vermelha", "Stade de Reims", "Leeds United"
+  "Estrela Vermelha", "Stade de Reims", "Leeds United", "Nottingham Forest"
 ];
 
 
