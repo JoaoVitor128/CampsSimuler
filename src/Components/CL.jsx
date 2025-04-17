@@ -31,6 +31,7 @@ const Table = () => {
                 return [...prev, { club: newClub, years: [newYear], finals: 1 }];
             }
         });
+        console.log(champions)
     }
 
     function generateChampions() {
