@@ -1,6 +1,6 @@
 const realChampionsData = [
 
-  { club: "Real Madrid", years: [1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017, 2018, 2022], finals: 18 },
+  { club: "Real Madrid", years: [1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017, 2018, 2022, 2024], finals: 19 },
   { club: "Milan", years: [1963, 1969, 1989, 1990, 1994, 2003, 2007], finals: 10 },
   { club: "Liverpool", years: [1977, 1978, 1981, 1984, 2005, 2019], finals: 10 },
   { club: "Bayern de Munique", years: [1974, 1975, 1976, 2001, 2013, 2020], finals: 11 },
