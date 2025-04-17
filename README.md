@@ -22,3 +22,4 @@ V2.1 - Contador de posicão ao ganhar a copa
 V2.2 - Champions League
        2.2.1 - Resolução de Bugs dos Times
        2.2.2 - Resolução de Bugs 2
+V2.2 - Adição para programadores 1
