@@ -23,4 +23,4 @@ V2.2 - Champions League
        2.2.1 - Resolução de Bugs dos Times
        2.2.2 - Resolução de Bugs 2
 V2.2 - Adição para programadores 1
-V2.3 - Finals Add
+V2.3 - Adição de finais
