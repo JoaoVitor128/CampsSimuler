@@ -95,6 +95,7 @@ const Table = () => {
                         <th>Posição</th>
                         <th>club</th>
                         <th>Títulos</th>
+                        <th>Finais</th>
                         <th className='year'>Anos</th>
                     </tr>
                 </thead>
@@ -106,6 +107,7 @@ const Table = () => {
                                 <td>{id + 1}º</td>
                                 <td>{club.club}</td>
                                 <td>{club.years.length}</td>
+                                <td>{club.finals}</td>
                                 <td className='year'>{club.years.join(", ")}</td>
                             </tr>
                         ))}
