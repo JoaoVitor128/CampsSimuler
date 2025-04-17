@@ -106,7 +106,7 @@ const Table = () => {
                             <tr key={id} className='tDefault'>
                                 <td>{id + 1}º</td>
                                 <td>{club.club}</td>
-                                <td>{club.years.length}</td>
+                                <td>{club.years.length || 0}</td>
                                 <td>{club.finals}</td>
                                 <td className='year'>{club.years.join(", ")}</td>
                             </tr>

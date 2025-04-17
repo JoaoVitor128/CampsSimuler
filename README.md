@@ -24,3 +24,4 @@ V2.2 - Champions League
        2.2.2 - Resolução de Bugs 2
 V2.2 - Adição para programadores 1
 V2.3 - Adição de finais
+       V2.3.1 - Correção de Bugs
