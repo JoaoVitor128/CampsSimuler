@@ -5,7 +5,7 @@ import './WC.css';
 
 const Table = () => {
     const [nextYears, setNextYears] = useState([]);
-    const [year, setYear] = useState(1955);
+    const [year, setYear] = useState(2024);
     const [champions, setChampions] = useState(realChampionsData);
 
     const [champClub, setChampClub] = useState("Real Madrid");
