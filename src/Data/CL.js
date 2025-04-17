@@ -1,27 +1,30 @@
 const realChampionsData = [
-  { club: "Real Madrid", years: [1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017, 2018, 2022, 2024] },
-  { club: "Milan", years: [1963, 1969, 1989, 1990, 1994, 2003, 2007] },
-  { club: "Liverpool", years: [1977, 1978, 1981, 1984, 2005, 2019] },
-  { club: "Bayern de Munique", years: [1974, 1975, 1976, 2001, 2013, 2020] },
-  { club: "Barcelona", years: [1992, 2006, 2009, 2011, 2015] },
-  { club: "Ajax", years: [1971, 1972, 1973, 1995] },
-  { club: "Manchester United", years: [1968, 1999, 2008] },
-  { club: "Inter de Milão", years: [1964, 1965, 2010] },
-  { club: "Chelsea", years: [2012, 2021] },
-  { club: "Benfica", years: [1961, 1962] },
-  { club: "Nottingham Forest", years: [1979, 1980] },
-  { club: "Juventus", years: [1985, 1996] },
-  { club: "Porto", years: [1987, 2004] },
-  { club: "Celtic", years: [1967] },
-  { club: "Feyenoord", years: [1970] },
-  { club: "Aston Villa", years: [1982] },
-  { club: "Hamburgo", years: [1983] },
-  { club: "Steaua Bucareste", years: [1986] },
-  { club: "PSV Eindhoven", years: [1988] },
-  { club: "Estrela Vermelha", years: [1991] },
-  { club: "Olympique de Marseille", years: [1993] },
-  { club: "Borussia Dortmund", years: [1997] },
-  { club: "Manchester City", years: [2023] }
+  [
+    { club: "Real Madrid", years: [1956, 1957, 1958, 1959, 1960, 1966, 1998, 2000, 2002, 2014, 2016, 2017, 2018, 2022, 2024], finals: 15 },
+    { club: "Milan", years: [1963, 1969, 1989, 1990, 1994, 2003, 2007], finals: 7 },
+    { club: "Liverpool", years: [1977, 1978, 1981, 1984, 2005, 2019], finals: 6 },
+    { club: "Bayern de Munique", years: [1974, 1975, 1976, 2001, 2013, 2020], finals: 6 },
+    { club: "Barcelona", years: [1992, 2006, 2009, 2011, 2015], finals: 5 },
+    { club: "Ajax", years: [1971, 1972, 1973, 1995], finals: 4 },
+    { club: "Manchester United", years: [1968, 1999, 2008], finals: 3 },
+    { club: "Inter de Milão", years: [1964, 1965, 2010], finals: 3 },
+    { club: "Chelsea", years: [2012, 2021], finals: 2 },
+    { club: "Benfica", years: [1961, 1962], finals: 2 },
+    { club: "Nottingham Forest", years: [1979, 1980], finals: 2 },
+    { club: "Juventus", years: [1985, 1996], finals: 2 },
+    { club: "Porto", years: [1987, 2004], finals: 2 },
+    { club: "Celtic", years: [1967], finals: 1 },
+    { club: "Feyenoord", years: [1970], finals: 1 },
+    { club: "Aston Villa", years: [1982], finals: 1 },
+    { club: "Hamburgo", years: [1983], finals: 1 },
+    { club: "Steaua Bucareste", years: [1986], finals: 1 },
+    { club: "PSV Eindhoven", years: [1988], finals: 1 },
+    { club: "Estrela Vermelha", years: [1991], finals: 1 },
+    { club: "Olympique de Marseille", years: [1993], finals: 1 },
+    { club: "Borussia Dortmund", years: [1997], finals: 1 },
+    { club: "Manchester City", years: [2023], finals: 1 }
+  ]
+
 ];
 
 
