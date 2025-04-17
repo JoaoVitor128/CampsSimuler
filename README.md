@@ -1,6 +1,7 @@
 Esse é um simulador de:
 -Copa do Mundo
 -Brasileirão 2025
+-Champions League
 
 SITE: https://camp-simuler.netlify.app
 
@@ -18,3 +19,4 @@ V2 - Media Query V1
        V2.0.1 - Media Query V2
 V2.1 - Contador de posicão ao ganhar a copa
        V2.1.1 - Novo Contador e organização do README
+V2.2 - Champions League
