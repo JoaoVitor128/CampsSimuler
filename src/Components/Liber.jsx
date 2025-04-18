@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { realChampionsData, selecionsData } from '../Data/CL';
+import { realChampionsData, selecionsData } from '../Data/Liber';
 import './table.css';
 import './WC.css';
 
@@ -8,10 +8,10 @@ const Table = () => {
     const [year, setYear] = useState(2024);
     const [champions, setChampions] = useState(realChampionsData);
 
-    const [champClub, setChampClub] = useState("Real Madrid");
-    const [viceClub, setViceClub] = useState("Manchester City");
+    const [champClub, setChampClub] = useState("Bota Fogo");
+    const [viceClub, setViceClub] = useState("Atlético Mineiro");
 
-    const [goalsChamp, setGoalsChamp] = useState(2);
+    const [goalsChamp, setGoalsChamp] = useState(3);
     const [goalsVice, setGoalsVice] = useState(1);
 
     const [prevRankings, setPrevRankings] = useState([]);

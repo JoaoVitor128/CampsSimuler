@@ -6,25 +6,29 @@ Esse é um simulador de:
 SITE: https://camp-simuler.netlify.app
 
 
-V 0.9 - Copa do Mundo
-V 1.0 - Brasileirão
-V 1.1 - Nova Estilização e limitação de gols na Copa do Mundo para 5
-V 1.2 - Resolução de bug das rodadas infinitas
-V 1.3 - Sistema de País Sede
-V 1.4 - Novos estilos do Brasileirão
-       V 1.4.1 - Atualizações De Estilos Gerais
-V1.5 - Adição de domínio       
+V 1.0 - Brasileirão e Copa do Mundo
 
-V2 - Media Query V1
-       V2.0.1 - Media Query V2
-V2.1 - Contador de posicão ao ganhar a copa
-       V2.1.1 - Novo Contador e organização do README
-V2.2 - Champions League
-       2.2.1 - Resolução de Bugs dos Times
-       2.2.2 - Resolução de Bugs 2
-V2.2 - Adição para programadores 1
-V2.3 - Adição de finais
-       V2.3.1 - Correção de Bugs
-       V2.3.2 - Últimos Bugs da adição de finais
-       V2.3.3 - Últimos Bugs da adição de finais 2
-V 2.4 - Adição de novos times na champions
+V2.0:
+- Nova Estilização e limitação de gols na Copa do Mundo para 5
+- Resolução de bug das rodadas infinitas
+- Sistema de País Sede
+- Novos estilos do Brasileirão
+- Atualizações De Estilos Gerais
+- Adição de domínio       
+
+V3.0:
+- Champions League
+- Resolução de Bugs dos Times
+- Resolução de Bugs 2
+- Adição para programadores 1
+- Adição de finais
+- Correção de Bugs
+- Últimos Bugs da adição de finais
+- Últimos Bugs da adição de finais 2
+- Adição de novos times na champions
+
+V4.0:
+- Cabeçalho
+- Novo estilo de README
+- Footer
+- Libertadores

@@ -122,6 +122,9 @@ const Table = () => {
                         ))}
                 </tbody>
             </table>
+            <footer>
+                <p>Jaum Programações, © Todos Os Direitos Reservados, V4.0</p>
+            </footer>
         </div>
     );
 };
